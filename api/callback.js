@@ -2,7 +2,7 @@ import axios from "axios";
 
 const client_id = "74dc21db45b74ca19665f9ff2d334554";
 const client_secret = "57cd816cf7c04d71b5a7918391412acc";
-const redirect_uri = "https://spotify-auth-backend-d25m-robinson-lepins-projects.vercel.app/api/callback";
+const redirect_uri = "https://spotify-player-amber.vercel.app/";
 
 export default async function handler(req, res) {
   // Manejar CORS
