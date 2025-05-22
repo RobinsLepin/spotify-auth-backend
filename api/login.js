@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const client_id = "b40a46efd78f4930b2da171a6933b8ef";
+const client_id = "74dc21db45b74ca19665f9ff2d334554";
 const redirect_uri = "https://spotify-auth-backend-d25m.vercel.app/api/callback";
 
 export default async function handler(req, res) {
